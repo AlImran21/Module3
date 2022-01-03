@@ -18,6 +18,12 @@ p {
     height: 250px;
     overflow: auto;
     display: inline-block;
+    transition: 0.8s;
+    margin: 5px;
+}
+p:hover {
+    box-shadow: 2px 2px 2px 5px;
+    opacity: 0.8;
 }
 .para {
     background-color: blue;
